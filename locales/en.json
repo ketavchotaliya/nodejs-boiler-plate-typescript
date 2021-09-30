@@ -1,0 +1,105 @@
+{
+  "SERVER_ERROR": "Server Error",
+  "VALIDATIONS": {
+    "COMMON": {
+      "authorization": {
+        "required": "Authorization Token is required"
+      },
+      "rowNumber": {
+        "valid": "rowNumber must not be zero."
+      }
+    }
+  },
+  "LOCATION": {
+    "COUNTRY_LIST": "Country List",
+    "STATE_LIST": "State List",
+    "CITY_LIST": "City List"
+  },
+  "PUBLIC": {
+    "first_name": {
+      "required": "First Name is Required",
+      "valid": "First Name should be valid"
+    },
+    "last_name": {
+      "required": "Last Name is Required",
+      "valid": "Last Name should be valid"
+    },
+    "email": {
+      "required": "Email is Required",
+      "valid": "Email should be valid"
+    },
+    "password": {
+      "required": "Password is required"
+    },
+    "has_accepted_tnc": {
+      "valid": "Terms and Condition should be valid"
+    },
+    "dial_code_country_id": {
+      "required": "Dial Country Code id is required",
+      "valid": "Dial Country Code should be valid"
+    },
+    "dial_code": {
+      "required": "Dial Code is required",
+      "valid": "Dial Country should be valid"
+    },
+    "contact_number": {
+      "required": "Contact number is required",
+      "valid": "Contact number should be valid"
+    },
+    "otp": {
+      "required": "OTP Required"
+    },
+    "forgot_password_initiated": "Forgot password code has been sent to your email!",
+    "password_updated": "Password updated."
+  },
+  "USER": {
+    "access_forbidden": "Access forbidden!",
+    "otp_send": "OTP Sent.",
+    "user_already_available": "User already exists",
+    "otp_verified": "OTP verified",
+    "otp_expired": "OTP Expired",
+    "login_successful": "Login Successful",
+    "otp_not_matched": "Invalid OTP",
+    "user_not_found": "User not found"
+  },
+  "TIMEZONE": {
+    "LIST": "Timezone list"
+  },
+  "AUTH": {
+    "config_details_available": "Config Details",
+    "password_updated": "Password Changed",
+    "logout_successful": "Logout successfully"
+  },
+  "ADMIN": {
+    "NOT_FOUND": "Admin not found"
+  },
+  "CONTACT_US": {
+    "VALIDATIONS": {
+      "first_name": {
+        "required": "First name field is required",
+        "valid": "First name must be valid"
+      },
+      "last_name": {
+        "required": "Last name field is required",
+        "valid": "Last name must be valid"
+      },
+      "email": {
+        "required": "Email field is required",
+        "valid": "Email must be valid"
+      },
+      "phone": {
+        "required": "Phone field is required",
+        "valid": "Phone must be valid"
+      },
+      "institute": {
+        "required": "Institute field is required",
+        "valid": "Institute must be valid"
+      },
+      "city": {
+        "required": "City field is required",
+        "valid": "City must be valid"
+      }
+    },
+    "add": "Thank you for your interest. We will contact you soon."
+  }
+}
